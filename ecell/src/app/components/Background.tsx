@@ -4,19 +4,45 @@ import Image from "next/image";
 import logo from "../../../public/courses/E-summit24 logo.png"
 import { TextHoverEffect } from "./ui/text-hover-effect";
 import { TextRevealCard } from "./ui/text-reveal-card";
+import { BackgroundBoxesDemo } from "./BackgroundBoxes";
+import { SparklesCore } from "./ui/sparkles";
+import { Vortex } from "./ui/vortex";
 export function BackgroundBeamsWithCollisionDemo() {
   return (
     
-    <BackgroundBeamsWithCollision>
-      <h2 className="text-2xl relative z-20 md:text-4xl lg:text-7xl font-bold text-center text-black dark:text-white font-sans tracking-tight">
+    
+     
+     <div className=" h-[40rem] w-full bg-black bg-gradient-to-b from-white to-neutral-100 dark:from-neutral-800 dark:to-black flex flex-col justify-end items-center overflow-hidden rounded-md  ">
+     <Vortex
+        backgroundColor="black"
+        className="flex items-center flex-col justify-end px-2 md:px-10 py-4 w-full h-full"
+      >
         <Image src={logo} width={400} height={400} alt="logo"/>
-        {/* <div className="relative mx-auto inline-block w-max [filter:drop-shadow(0px_1px_3px_rgba(27,_37,_80,_0.14))]">
-          <div className="absolute left-0 top-[1px] bg-clip-text bg-no-repeat text-transparent bg-gradient-to-r py-4 from-purple-500 via-violet-500 to-pink-500 [text-shadow:0_0_rgba(0,0,0,0.1)]">
+        </Vortex>
+      <div className="w-full h-40 relative bg-gradient-to-b from-white to-neutral-100 dark:from-neutral-800 dark:to-black">
+        {/* Gradients */}
+        <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
+        <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
+        <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] w-1/4 blur-sm" />
+        <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4" />
 
-          </div>
+        {/* Core component */}
+        <SparklesCore
+          background="transparent"
+          minSize={0.4}
+          maxSize={1}
+          particleDensity={1400}
+          className="w-full h-full"
+          particleColor="#FFFFFF"
+        />
 
-        </div> */}
-      </h2>
-    </BackgroundBeamsWithCollision>
+        {/* Radial Gradient to prevent sharp edges */}
+        <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]">
+
+        </div>
+      </div>
+        
+    </div>
+    
   );
 }

@@ -10,6 +10,9 @@ import Footer from "../../../../Ecell/ecell/src/app/components/Footer";
 import { BackgroundBeamsWithCollisionDemo } from "./components/Background";
 import { BackgroundBeamsDemo } from "./components/Beam";
 import { CardHoverEffectDemo } from "./components/card";
+import { BackgroundBoxesDemo } from "./components/BackgroundBoxes";
+import { SparklesCore } from "./components/ui/sparkles";
+import { SparklesPreview } from "./components/SparklesPreview";
 
 
 export default function Home() {
@@ -17,13 +20,14 @@ export default function Home() {
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
 
       <BackgroundBeamsWithCollisionDemo/>
-      <LampHeader />
+     {/* <SparklesPreview/> */}
+   <CardHoverEffectDemo/>
       <HeroSection />
+      <LampHeader />
       <FeaturedCourses />
       {/* <WhyChooseUs /> */}
       <Testimonial />
       <BentoGridThirdDemo />
-   <CardHoverEffectDemo/>
       <Instructors />
       <Footer />
     </main>
