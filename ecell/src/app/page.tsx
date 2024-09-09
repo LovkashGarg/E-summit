@@ -9,6 +9,7 @@ import Instructors from "../../../../Ecell/ecell/src/app/components/Instructor";
 import Footer from "../../../../Ecell/ecell/src/app/components/Footer";
 import { BackgroundBeamsWithCollisionDemo } from "./components/Background";
 import { BackgroundBeamsDemo } from "./components/Beam";
+import { CardHoverEffectDemo } from "./components/card";
 
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       <Testimonial />
       <BentoGridThirdDemo />
       <Instructors />
+   <CardHoverEffectDemo/>
       <Footer />
     </main>
   );
