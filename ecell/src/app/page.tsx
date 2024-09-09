@@ -1,12 +1,14 @@
 import Image from "next/image";
-import HeroSection from "../../../../Ecell/ecell/src/app/components/HeroSection";
-import FeaturedCourses from "../../../../Ecell/ecell/src/app/components/FeaturedCourses";
-import { LampHeader } from "../../../../Ecell/ecell/src/app/components/LampHeader";
-import WhyChooseUs from "../../../../Ecell/ecell/src/app/components/WhyChooseUs";
-import { Testimonial } from "../../../../Ecell/ecell/src/app/components/Testimonial";
-import { BentoGridThirdDemo } from "../../../../Ecell/ecell/src/app/components/BentoGrid";
-import Instructors from "../../../../Ecell/ecell/src/app/components/Instructor";
-import Footer from "../../../../Ecell/ecell/src/app/components/Footer";
+import HeroSection from "./components/HeroSection";
+import FeaturedCourses from "./components/FeaturedCourses";
+import { LampHeader } from "./components/LampHeader";
+import WhyChooseUs from "./components/WhyChooseUs";
+import { Testimonial } from "./components/Testimonial";
+import { BentoGridThirdDemo } from "./components/BentoGrid";
+import Instructors from "./components/Instructor";
+import Footer from "./components/Footer";
+import { CardHoverEffectDemo } from "./components/card";
+
 
 
 export default function Home() {
@@ -20,6 +22,7 @@ export default function Home() {
       <Testimonial />
       <BentoGridThirdDemo />
       <Instructors />
+   <CardHoverEffectDemo/>
       <Footer />
     </main>
   );
