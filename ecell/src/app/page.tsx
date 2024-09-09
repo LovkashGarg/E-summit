@@ -20,11 +20,11 @@ export default function Home() {
       <LampHeader />
       <HeroSection />
       <FeaturedCourses />
-      <WhyChooseUs />
+      {/* <WhyChooseUs /> */}
       <Testimonial />
       <BentoGridThirdDemo />
-      <Instructors />
    <CardHoverEffectDemo/>
+      <Instructors />
       <Footer />
     </main>
   );

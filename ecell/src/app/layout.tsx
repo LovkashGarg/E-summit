@@ -21,7 +21,6 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="relative w-full bg-neutral-800 items-center justify-center">
           <Navbar />
-          <Button borderRadius="1.75rem">Login </Button>
         </div>
         {children}
       </body>

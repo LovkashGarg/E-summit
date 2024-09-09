@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "../utils/cn";
 import Link from "next/link";
+import { Button } from "./ui/moving-border";
 
 function Navbar({ className }: { className?: string }) {
 
@@ -10,7 +11,8 @@ function Navbar({ className }: { className?: string }) {
 
 
   return (
-    <div className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50 ", className)}>
+    <div className="flex">
+    <div className={cn("fixed top-10 inset-x-0 max-w-full mx-auto z-50 flex justify-around", className)}>
       <Menu setActive={setActive} >
         <Link href="/">
           <MenuItem setActive={setActive} active={active} item="Home">
@@ -32,8 +34,11 @@ function Navbar({ className }: { className?: string }) {
           <MenuItem setActive={setActive} active={active} item="Contact Us"></MenuItem>
         </Link>
       </Menu>
-
+     
+      <Button borderRadius="1.75rem" >Login </Button>
     </div>
+      </div>
+
   )
 }
 
