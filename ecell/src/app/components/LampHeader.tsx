@@ -6,7 +6,7 @@ import { StickyScroll } from "./ui/sticky-scroll-reveal";
 
 export function LampHeader() {
   return (
-    <LampContainer>
+    <LampContainer >
       <motion.h1
         initial={{ opacity: 0.5, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
