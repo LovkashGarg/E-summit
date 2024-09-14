@@ -19,27 +19,28 @@ export function BackgroundBeamsWithCollisionDemo() {
       >
         <Image src={logo} width={400} height={400} alt="logo"/>
         </Vortex>
-      <div className="w-full h-40 relative bg-gradient-to-b from-white to-neutral-100 dark:from-neutral-800 dark:to-black">
+      <div className="w-full h-40 relative bg-gradient-to-b from-white to-neutral-100 dark:from-neutral-900 dark:to-black">
         {/* Gradients */}
-        <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
-        <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
-        <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] w-1/4 blur-sm" />
-        <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4" />
+        {/* <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-1/3 blur-sm" /> */}
+        <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/3 " />
+        <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[5px] w-2/3 blur-sm" />
+        <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/3" />
 
         {/* Core component */}
-        <SparklesCore
+        {/* <SparklesCore
           background="transparent"
           minSize={0.4}
           maxSize={1}
           particleDensity={1400}
           className="w-full h-full"
           particleColor="#FFFFFF"
-        />
+        /> */}
 
         {/* Radial Gradient to prevent sharp edges */}
         <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]">
 
         </div>
+        
       </div>
         
     </div>
