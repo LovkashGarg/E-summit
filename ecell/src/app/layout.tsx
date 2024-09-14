@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "../../../../Ecell/ecell/src/app/components/Navbar";
-import { Button } from "./components/ui/moving-border";
+import Navbar from "./components/Navbar";
+// import { Button } from "./components/ui/moving-border";
 
 const inter = Inter({ subsets: ["latin"] });
 
