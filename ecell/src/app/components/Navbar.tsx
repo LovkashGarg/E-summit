@@ -9,9 +9,11 @@ import logo from "../../../public/courses/E-Cell logo Yellow-white.png"
 function Navbar({ className }: { className?: string }) {
 
   const [active, setActive] = useState<string | null>(null);
+
+
   return (
     <div className="flex">
-    <div className={cn("fixed top-10 inset-x-0 max-sm:w-full max-w-full mx-auto z-50 flex justify-around", className)}>
+    <div className={cn("fixed top-10 inset-x-0 max-sm:w-full max-w-full mx-auto z-50 flex justify-around ", className)}>
       
       <Image src={logo} className="w-[80px] h-[80px] md:w-[100px] md:h-[100px]  " width={100} height={100} alt="logo" />
     
