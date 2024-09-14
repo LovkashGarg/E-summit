@@ -15,9 +15,9 @@ function Navbar({ className }: { className?: string }) {
     <div className="flex">
     <div className={cn("fixed top-10 inset-x-0 max-sm:w-full max-w-full mx-auto z-50 flex justify-around ", className)}>
       
-      <Image src={logo} width={100} height={100} alt="logo" />
+      <Image src={logo} className="w-[80px] h-[80px] md:w-[100px] md:h-[100px]  " width={100} height={100} alt="logo" />
     
-<div className="pl-48">
+<div className="pl-48 hidden flex flex-col items-center justify-center md:block" >
 
       <Menu setActive={setActive} >
         <Link href="/">
@@ -33,11 +33,9 @@ function Navbar({ className }: { className?: string }) {
       </Menu>
 </div>
 
-      <div className="h-1">
-        <Link href="/signup">
-      <Button borderRadius="1.75rem" >Login </Button>
-        </Link>
-      <Button borderRadius="1.75rem" >Sign Up </Button>
+      <div className="hidden md:block">
+      <Link href='/signup'><Button borderRadius="1.75rem" >Login </Button></Link>
+      <Link href='/signup'><Button borderRadius="1.75rem" >Sign Up</Button></Link> 
       </div>
     </div>
       </div>
