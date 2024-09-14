@@ -13,7 +13,7 @@ import { CardHoverEffectDemo } from "./components/card";
 // import { BackgroundBoxesDemo } from "./components/BackgroundBoxes";
 // import { SparklesCore } from "./components/ui/sparkles";
 // import { SparklesPreview } from "./components/SparklesPreview";
-
+import SignupForm from "./components/Signup";
 
 export default function Home() {
   return (
@@ -28,6 +28,7 @@ export default function Home() {
       {/* <WhyChooseUs /> */}
       {/* <Testimonial /> */}
       {/* <BentoGridThirdDemo /> */}
+      <SignupForm/>
       <Instructors />
       <Footer />
     </main>
