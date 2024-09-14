@@ -13,16 +13,16 @@ export function CardHoverEffectDemo() {
 }
 export const projects = [
   {
-    title: "Stripe",
+    title: "Pitch Perfect",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
+      "They say a little knowledge is a dangerous thing, but it's not one half so bad as a lot of ignorance. Here’s a fun and educative way to challenge your awareness of one of the most rapidly emerging global trends - entrepreneurship! Knowledge ",
     link: "https://stripe.com",
-    imageurl: "https://stripe.com/img/documentation/checkout/checkout.png",
+    imageurl: "https://esummit23.ecelliiitp.org/_next/image?url=https%3A%2F%2Fi.ibb.co%2FwrkFCTV%2FPitch-Perfect.png&w=256&q=75",
   },
   {
     title: "Netflix",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+    "They say a little knowledge is a dangerous thing, but it's not one half so bad as a lot of ignorance. Here’s a fun and educative way to challenge your awareness of one of the most rapidly emerging global trends - entrepreneurship! Knowledge ",
     link: "https://netflix.com",
     imageurl: "https://stripe.com/img/documentation/checkout/checkout.png",
 
@@ -30,28 +30,28 @@ export const projects = [
   {
     title: "Google",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
+    "They say a little knowledge is a dangerous thing, but it's not one half so bad as a lot of ignorance. Here’s a fun and educative way to challenge your awareness of one of the most rapidly emerging global trends - entrepreneurship! Knowledge ",
     link: "https://google.com",
     imageurl: "https://stripe.com/img/documentation/checkout/checkout.png",
   },
   {
-    title: "Meta",
+    title: "Flawless",
     description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
+    "They say a little knowledge is a dangerous thing, but it's not one half so bad as a lot of ignorance. Here’s a fun and educative way to challenge your awareness of one of the most rapidly emerging global trends - entrepreneurship! Knowledge ",
     link: "https://meta.com",
     imageurl: "https://stripe.com/img/documentation/checkout/checkout.png",
   },
   {
-    title: "Amazon",
+    title: "Dumsharades",
     description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
+    "They say a little knowledge is a dangerous thing, but it's not one half so bad as a lot of ignorance. Here’s a fun and educative way to challenge your awareness of one of the most rapidly emerging global trends - entrepreneurship! Knowledge ",
     link: "https://amazon.com",
     imageurl: "https://stripe.com/img/documentation/checkout/checkout.png",
   },
   {
-    title: "Microsoft",
+    title: "Top Talks",
     description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
+    "They say a little knowledge is a dangerous thing, but it's not one half so bad as a lot of ignorance. Here’s a fun and educative way to challenge your awareness of one of the most rapidly emerging global trends - entrepreneurship! Knowledge ",
     link: "https://microsoft.com",
     imageurl: "https://stripe.com/img/documentation/checkout/checkout.png",
   },
