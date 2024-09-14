@@ -2,9 +2,9 @@ import React from "react";
 import { BackgroundBeamsWithCollision } from "@/app/components/ui/background-beams-with-collision";
 import Image from "next/image";
 import logo from "../../../public/courses/E-summit24 logo.png"
-import { TextHoverEffect } from "./ui/text-hover-effect";
-import { TextRevealCard } from "./ui/text-reveal-card";
-import { BackgroundBoxesDemo } from "./BackgroundBoxes";
+// import { TextHoverEffect } from "./ui/text-hover-effect";
+// import { TextRevealCard } from "./ui/text-reveal-card";
+// import { BackgroundBoxesDemo } from "./BackgroundBoxes";
 import { SparklesCore } from "./ui/sparkles";
 import { Vortex } from "./ui/vortex";
 export function BackgroundBeamsWithCollisionDemo() {
