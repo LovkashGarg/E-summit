@@ -33,9 +33,9 @@ function Navbar({ className }: { className?: string }) {
       </Menu>
 </div>
 
-      <div className="hidden md:block">
-      <Link href='/signup'><Button borderRadius="1.75rem" >Login </Button></Link>
-      <Link href='/signup'><Button borderRadius="1.75rem" >Sign Up</Button></Link> 
+      <div className="hidden md:flex md:block">
+      <Link href='/signup'><Button className="text-[20px] h-[50px] w-[130px] px-[20px]" borderRadius="1.75rem" >Login </Button></Link>
+      <Link href='/signup'><Button className="text-[20px] h-[50px]  w-[130px]" borderRadius="1.75rem" >Sign Up</Button></Link> 
       </div>
     </div>
       </div>
