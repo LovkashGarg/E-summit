@@ -15,6 +15,7 @@ import { CardHoverEffectDemo } from "./components/card";
 // import { SparklesPreview } from "./components/SparklesPreview";
 // import SignupFormDemo from "./signup/page"
 import Payment_gateway from "./components/Payment_gateway";
+import Leaderboard from "./components/LeaderBoard";
 export default function Home() {
   return (
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
@@ -31,6 +32,7 @@ export default function Home() {
       {/* <SignupFormDemo/> */}
       <Payment_gateway/>
       <Instructors />
+      <Leaderboard />
       <Footer />
     </main>
   );
