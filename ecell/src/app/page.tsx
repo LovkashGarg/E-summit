@@ -14,7 +14,7 @@ import { CardHoverEffectDemo } from "./components/card";
 // import { SparklesCore } from "./components/ui/sparkles";
 // import { SparklesPreview } from "./components/SparklesPreview";
 // import SignupFormDemo from "./signup/page"
-
+import Payment_gateway from "./components/Payment_gateway";
 export default function Home() {
   return (
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
@@ -29,6 +29,7 @@ export default function Home() {
       {/* <Testimonial /> */}
       {/* <BentoGridThirdDemo /> */}
       {/* <SignupFormDemo/> */}
+      <Payment_gateway/>
       <Instructors />
       <Footer />
     </main>
